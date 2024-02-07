@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+
+body {
+    background-image: url('https://portalperifacon.com/wp-content/uploads/2022/04/the-batman-1280x720-1-e1649685723865.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+     width: 100%;
+     height: 600px;
+}
+
+
+
+.comment-box {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 500px;
+
+}
+
+.comment-box h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: yellow;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.comment-box input {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+.comment-box input:focus {
+    border: 1px solid red;
+    outline: 0;
+
+}
+
+.comment-box textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.comment-box textarea:focus {
+    border: 1px solid red;
+    outline: 0;
+}
+
+.comment-box button {
+    border: 0;
+    padding: 10px 30px;
+    background: yellow;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #000;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.comment-box button:hover {
+    background-color: red;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 500px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .comment-box {
+    width: 100%;
+    height: 500px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h2 {
+    width: 100px;
+  }
+
+  button {
+    margin-left: 150px;
+  }
+
+  textarea {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+    body {
+        background-position: 50% 50%;
+        width: 100%;
+        height: 900px;
+        background-size: cover;
+    }
+
+    form {
+        width: 85%;
+        margin-right: 42px;
+    }
+  }
